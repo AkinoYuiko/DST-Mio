@@ -101,7 +101,7 @@ local function autorefuel(inst)
 			-- for k2, v2 in pairs(fueledtable) do
 			if table.contains(fueledtable,v.prefab) then
 				local target = v.components.fueled
-				if target:GetPercent() + TUNING.LARGE_FUEL / target.maxfuel * target.bonusmult <= 1
+				if target and target:GetPercent() + TUNING.LARGE_FUEL / target.maxfuel * target.bonusmult <= 1
 				  and CheckHasItem(inst,"nightmarefuel")
 				  then
 					is_fx_true = true
@@ -114,7 +114,7 @@ local function autorefuel(inst)
 			-- 黑莲, 暗之莲, 光之莲 --
 			if table.contains(lotustable,v.prefab) then
 				local target = v.components.finiteuses
-				if target:GetPercent() <= 0.75
+				if target and target:GetPercent() <= 0.75
 				  and CheckHasItem(inst,"nightmarefuel")
 				  then
 					is_fx_true = true
@@ -133,7 +133,7 @@ local function autorefuel(inst)
 			for _,v in pairs(sailslots) do
 				if table.contains(boat_fueledtable,v.prefab) then
 					local target = v.components.fueled
-					if target:GetPercent() + TUNING.LARGE_FUEL / target.maxfuel * target.bonusmult <= 1
+					if target and target:GetPercent() + TUNING.LARGE_FUEL / target.maxfuel * target.bonusmult <= 1
 				  	and CheckHasItem(inst,"nightmarefuel")
 					  then
 						is_fx_true = true
