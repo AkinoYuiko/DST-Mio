@@ -1,10 +1,10 @@
-version = "1.49.3"
+version = "1.49.4"
 name = locale == "zh" and "梦魇少女 澪" or "Mio"
 author = locale == "zh" and "丁香女子学校" or "Civi, kengyou_lei, Tony"
 description = locale == "zh" and
 "[版本: "..version..[[]
 
-更新内容: 修复皮肤图片不正确的问题.
+更新内容: 修复立绘显示问题.
 
 < 饥饿/精神/生命: 100 >
 
@@ -15,7 +15,7 @@ description = locale == "zh" and
 or
 "[Version: "..version..[[]
 
-Changelog: Fixed issue that skin images are not correct.
+Changelog: Fixed bigportraits display issue.
 
 < Hunger/Sanity/Health: 100 >
 
