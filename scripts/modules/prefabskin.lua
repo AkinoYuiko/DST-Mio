@@ -85,9 +85,9 @@ GlassicAPI.SkinHandler.AddModSkins({
         "miotan_classic"
     },
     lantern = {
-        { name = "lantern_mio", test_fn = GlassicAPI.SetExclusiveToPlayer("miotan") }
+        { name = "lantern_mio", test_fn = function(player) return GlassicAPI.SetExclusiveToPlayer(player, "miotan") end }
     },
     yellowamulet = {
-        { name = "yellowamulet_heart", test_fn = GlassicAPI.SetExclusiveToPlayer("miotan") }
+        { name = "yellowamulet_heart", test_fn = function(player) return GlassicAPI.SetExclusiveToPlayer(player, "miotan") end }
     }
 })
