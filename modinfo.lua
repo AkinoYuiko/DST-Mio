@@ -1,10 +1,11 @@
-version = "1.49.5"
+version = "1.49.6"
 name = locale == "zh" and "梦魇少女 澪" or "Mio"
 author = locale == "zh" and "丁香女子学校" or "Civi, kengyou_lei, Tony"
 description = locale == "zh" and
 "[版本: "..version..[[]
 
-更新内容: 修复自动充能的一个问题.
+更新内容: 
+- 修复 InitCharacterAssets 的问题
 
 < 饥饿/精神/生命: 100 >
 
@@ -15,7 +16,8 @@ description = locale == "zh" and
 or
 "[Version: "..version..[[]
 
-Changelog: Fixed issue that auto-refuel crashes with Night Pack.
+Changelog: 
+- Fixed an issue with InitCharacterAssets.
 
 < Hunger/Sanity/Health: 100 >
 
