@@ -1,4 +1,4 @@
-version = "1.49.8"
+version = "1.49.9"
 name = locale == "zh" and "梦魇少女 澪" or "Mio"
 author = locale == "zh" and "丁香女子学校" or "Civi, kengyou_lei, Tony"
 description = locale == "zh" and
