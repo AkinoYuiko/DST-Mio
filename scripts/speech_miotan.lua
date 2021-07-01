@@ -1,4 +1,8 @@
 return {
+    ANNOUNCE_TOOMANYBIRDS = "I don't think it's smart to read it now.",
+    ANNOUNCE_WAYTOOMANYBIRDS = "I can't see any birds in the sky!",
+    ANNOUNCE_ATTACH_BUFF_ELECTRICATTACK = "I want some goat!",
+    ANNOUNCE_DETACH_BUFF_ELECTRICATTACK = "Another zappy dish?",
 	-- DESCRIBE_PLANTHAPPY = "Well well, this plant looks swell!",
 	-- ANNOUNCE_CRAFTING_FAIL = "My hands are truly cursed.",
 	-- ANNOUNCE_ADVENTUREFAIL = "I've had enough plane hopping.",
@@ -337,7 +341,7 @@ return {
 	-- ANNOUNCE_DETACH_BUFF_PLAYERABSORPTION = "That was fun, let's do it again!",
 	-- ANNOUNCE_GHOSTDRAIN = "Ghosts play... strange games...",
 	-- ANNOUNCE_NONIGHTSIESTA = "No honorable imp would siesta at night.",
-	-- ANNOUNCE_COLD = "It's finally frozen over!",
+	ANNOUNCE_COLD = "Help, I need some nightmare fuels!",
 	-- ANNOUNCE_SACREDCHEST_YES = "I'm... worthy?",
 	-- ANNOUNCE_SHELTER = "Ah, much better!",
 	-- ANNOUNCE_DESPAWN = "Hyuyu, fare thee well!",
@@ -487,6 +491,8 @@ return {
 	-- DESCRIBE_TOODARK = "I can't see the physical plane!",
 	DESCRIBE =
 	{
+        PANFLUTE = "Sleepy time!",
+        LUREPLANT = "Trash can, or maybe a harvester.",
 		CHESSPIECE_MOOSEGOOSE =
 		{
 			-- We've established a stone goose truce.",
@@ -916,13 +922,17 @@ return {
 		-- LAVAARENA_HEALINGFLOWERHAT = "I don't want to die, hyuyu!",
 		PLAYER =
 		{
-			-- GENERIC = "Hello, hello, good day, good day!",
-			-- MURDERER = "That wasn't a prank! That mortal's dead!",
-			-- FIRESTARTER = "Ooo, who did you prank?",
-			-- ATTACKER = "That was a mean prank, %s!",
-			-- GHOST = "Ooo, lunch is here!",
-			-- REVIVER = "What a kind soul you have there!",
+            GENERIC = "It's %s!",
+            MURDERER = "I'm not deliciouse, don't eat me!",
+            FIRESTARTER = "c_kick()!",
+            ATTACKER = "I'm not deliciouse, don't eat me!",
+            GHOST = "Maybe I can write a 正 on your face, haha.",
+            REVIVER = "Please don't, we want life giving amulets!",
 		},
+        MIOTAN =
+        {
+            GHOST = "Well, maybe you should switch to WX-78 next time XD.",
+        },
 		-- ROCK = "What a shock! It's a rock!",
 		-- CAVE_BANANA_BURNT = "I don't think anyone wants it now.",
 		-- ARMORDRAGONFLY = "Ooo, I've always wanted to be scaly.",
@@ -1046,9 +1056,9 @@ return {
 		},
 		HOMESIGN =
 		{
-			-- GENERIC = "\\"You are here\\" it says, it says.",
-			-- UNWRITTEN = "Nothing to be seen here, I fear.",
-			-- BURNT = "A silly prank to be sure.",
+			GENERIC = "Ha! :blpp:",
+			UNWRITTEN = "There's no way we don't have a :blpp: here.",
+			BURNT = "My :blpp:! Noooo!",
 		},
 		YOTB_BEEFALO_DOLL_NATURE =
 		{
