@@ -18,8 +18,8 @@ Assets = {
 
 AddModCharacter("miotan", "FEMALE")
 
-modimport("strings/miotan_init.lua")
-modimport("strings/miotan_str"..(table.contains({"zh","chs","cht"}, GLOBAL.LanguageTranslator.defaultlang) and "_chs" or "")..".lua")
+modimport("main/tuning.lua")
+modimport("main/strings.lua")
 
 local SkinHandler = require("skinhandler")
 SkinHandler.AddModSkins({

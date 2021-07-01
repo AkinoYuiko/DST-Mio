@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Application: Dont' Starve\n"
+"POT Version: 2.0\n"
+
+#. STRINGS.CHARACTER_ABOUTME.miotan
+msgctxt "STRINGS.CHARACTER_ABOUTME.miotan"
+msgid "Mio cames from another world, where nightmare is everywhere."
+msgstr ""
+
+#. STRINGS.CHARACTER_NAMES.miotan
+msgctxt "STRINGS.CHARACTER_NAMES.miotan"
+msgid "Mio"
+msgstr ""
+
+#. STRINGS.CHARACTER_DESCRIPTIONS.miotan
+msgctxt "STRINGS.CHARACTER_DESCRIPTIONS.miotan"
+msgid "*World treats her differently.\\n*Friend of nightmare."
+msgstr ""
+
+#. STRINGS.CHARACTER_QUOTES.miotan
+msgctxt "STRINGS.CHARACTER_QUOTES.miotan"
+msgid "\\"If I could eat nightmare!\\""
+msgstr ""
+
+#. STRINGS.CHARACTER_SURVIVABILITY.miotan
+msgctxt "STRINGS.CHARACTER_SURVIVABILITY.miotan"
+msgid "Grim"
+msgstr ""
+
+#. STRINGS.CHARACTER_TITLES.miotan
+msgctxt "STRINGS.CHARACTER_TITLES.miotan"
+msgid "The Nightmare Eater"
+msgstr ""
+
+#. STRINGS.SKIN_DESCRIPTIONS.miotan_classic
+msgctxt "STRINGS.SKIN_DESCRIPTIONS.miotan_classic"
+msgid "Mio's V1 skin!"
+msgstr ""
+
+#. STRINGS.SKIN_DESCRIPTIONS.miotan_none
+msgctxt "STRINGS.SKIN_DESCRIPTIONS.miotan_none"
+msgid "Mio cames from another world, where nightmare is everywhere."
+msgstr ""
+
+#. STRINGS.CHARACTER_BIOS.miotan.1.title
+msgctxt "STRINGS.CHARACTER_BIOS.miotan.1.title"
+msgid "Birthday"
+msgstr ""
+
+#. STRINGS.CHARACTER_BIOS.miotan.1.desc
+msgctxt "STRINGS.CHARACTER_BIOS.miotan.1.desc"
+msgid "July 17"
+msgstr ""
+
+#. STRINGS.CHARACTER_BIOS.miotan.2.title
+msgctxt "STRINGS.CHARACTER_BIOS.miotan.2.title"
+msgid "Favorite Food"
+msgstr ""
+
+#. STRINGS.CHARACTER_BIOS.miotan.2.desc
+msgctxt "STRINGS.CHARACTER_BIOS.miotan.2.desc"
+msgid "None"
+msgstr ""
+
+#. STRINGS.NAMES.MIOTAN
+msgctxt "STRINGS.NAMES.MIOTAN"
+msgid "Mio"
+msgstr ""
+
+#. STRINGS.CHARACTERS.MIOTAN.DESCRIBE.NIGHTMAREFUEL
+msgctxt "STRINGS.CHARACTERS.MIOTAN.DESCRIBE.NIGHTMAREFUEL"
+msgid "How I LOVE it!"
+msgstr ""
+
+#. STRINGS.SKIN_NAMES.yellowamulet_heart
+msgctxt "STRINGS.SKIN_NAMES.yellowamulet_heart"
+msgid "Glowing Heart"
+msgstr ""
+
+#. STRINGS.SKIN_NAMES.miotan_none
+msgctxt "STRINGS.SKIN_NAMES.miotan_none"
+msgid "Mio"
+msgstr ""
+
+#. STRINGS.SKIN_NAMES.miotan_classic
+msgctxt "STRINGS.SKIN_NAMES.miotan_classic"
+msgid "Classic"
+msgstr ""
+
+#. STRINGS.SKIN_NAMES.lantern_mio
+msgctxt "STRINGS.SKIN_NAMES.lantern_mio"
+msgid "Camping Lamp"
+msgstr ""
+

@@ -13,11 +13,11 @@ local main_files = {
 	"fuelactions",
 	"prefabskin",
 	"sanity_reward",
-	"tradefuel"
+	"tradefuel",
+	"strings",
+	"tuning",
 }
 
-for _,v in pairs(main_files) do modimport("main/"..v) end
-
--- Custom speech strings and skin
-modimport("strings/miotan_init.lua")
-modimport("strings/miotan_str"..(table.contains({"zh","chs","cht"}, GLOBAL.LanguageTranslator.defaultlang) and "_chs" or "")..".lua")
+for _, v in ipairs(main_files) do
+    modimport("main/"..v)
+end
