@@ -24,8 +24,8 @@ table.insert(prefabs, CreatePrefabSkin("yellowamulet_heart", {
     rarity = "Glassic",
     build_name_override = "yellowamulet_heart",
     assets = {
-        Asset( "ANIM", "anim/yellowamulet_heart.zip" ),
-        Asset( "INV_IMAGE", "yellowamulet_heart" ),
+        Asset( "DYNAMIC_ANIM", "anim/dynamic/yellowamulet_heart.zip" ),
+        Asset( "PKGREF", "anim/dynamic/yellowamulet_heart.dyn" ),
     },
     init_fn = function(inst) yellowamulet_init_fn(inst, "yellowamulet_heart") end,
 	skin_tags = { "YELLOWAMULET"},
