@@ -5,7 +5,7 @@ PrefabFiles = {
 }
 
 Assets = {
-    -- Asset( "ATLAS", "bigportraits/miotan.xml" ),
+    Asset( "ATLAS", "bigportraits/miotan.xml" ),
     Asset( "ATLAS", "bigportraits/miotan_none.xml" ),
     Asset( "ATLAS", "bigportraits/miotan_classic.xml" ),
     Asset( "ATLAS", "images/names_miotan.xml" ),
