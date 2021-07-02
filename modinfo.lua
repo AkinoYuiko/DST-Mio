@@ -1,11 +1,11 @@
-version = "1.49.9"
+version = "1.50"
 name = locale == "zh" and "梦魇少女 澪" or "Mio"
 author = locale == "zh" and "丁香女子学校" or "Civi, kengyou_lei, Tony"
 description = locale == "zh" and
 "[版本: "..version..[[]
 
 更新内容: 
-- 修复一个小小的问题.
+- 新增一部分语言文本.
 
 < 饥饿/精神/生命: 100 >
 
@@ -17,7 +17,7 @@ or
 "[Version: "..version..[[]
 
 Changelog: 
-- Fixed bug.
+- Add a few speech text strings.
 
 < Hunger/Sanity/Health: 100 >
 
