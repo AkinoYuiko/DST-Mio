@@ -1,11 +1,11 @@
-version = "1.50"
+version = "1.51"
 name = locale == "zh" and "梦魇少女 澪" or "Mio"
 author = locale == "zh" and "丁香女子学校" or "Civi, kengyou_lei, Tony"
 description = locale == "zh" and
 "[版本: "..version..[[]
 
 更新内容: 
-- 新增一部分语言文本.
+- 部分皮肤改用dyn格式.
 
 < 饥饿/精神/生命: 100 >
 
@@ -17,7 +17,7 @@ or
 "[Version: "..version..[[]
 
 Changelog: 
-- Add a few speech text strings.
+- Part of skins now uses dyn format.
 
 < Hunger/Sanity/Health: 100 >
 
