@@ -315,7 +315,7 @@ return {
 	-- ANNOUNCE_THURIBLE_OUT = "Oh dear, I think our truce just expired.",
 	ANNOUNCE_TALK_TO_PLANTS =
 	{
-		[5] = "I know what? We have a EMOJI system mod!",
+		[5] = "You know what? We have a EMOJI system mod!",
 		-- A pleasant day to you, my good greenery!",
 		-- I'm so sorry, I'm afraid I'm not quite fluent in plant.",
 		-- How dull to spend your life stuck in the ground! Luckily I'm here to make it more exciting!",
@@ -2172,7 +2172,7 @@ return {
 		-- LEAFYMEATBURGER = "Mortals seem to get quite irritated when you mess with their food.",
 		-- TURF_FUNGUS_GREEN = "Floor or ceiling, depending on your perspective.",
 		-- QUAGMIRE_RUBBLE_CARRIAGE = "Which squeaky wheel will get the grease?",
-		MOLEHAT = "It let me see how other people get hit by charlie!",
+		MOLEHAT = "It lets me see how other people get hit by charlie!",
 		-- OCEANFISH_SMALL_3 = "You took the bait, now suffer your fate!",
 		-- TRUNKVEST_WINTER = "A puffy, poofy vest, oh yes.",
 		-- BARNACLESTUFFEDFISHHEAD = "Hyuyu, no talking with your mouth full!",
