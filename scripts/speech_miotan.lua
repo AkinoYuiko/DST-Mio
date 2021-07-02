@@ -3,6 +3,8 @@ return {
     ANNOUNCE_WAYTOOMANYBIRDS = "I can't see any birds in the sky!",
     ANNOUNCE_ATTACH_BUFF_ELECTRICATTACK = "I want some goat!",
     ANNOUNCE_DETACH_BUFF_ELECTRICATTACK = "Another zappy dish?",
+	ANNOUNCE_ENTER_DARK = "Woo, cool!",
+	ANNOUNCE_ENTER_LIGHT = "Noo! I still wanna play!",
 	-- DESCRIBE_PLANTHAPPY = "Well well, this plant looks swell!",
 	-- ANNOUNCE_CRAFTING_FAIL = "My hands are truly cursed.",
 	-- ANNOUNCE_ADVENTUREFAIL = "I've had enough plane hopping.",
@@ -313,6 +315,7 @@ return {
 	-- ANNOUNCE_THURIBLE_OUT = "Oh dear, I think our truce just expired.",
 	ANNOUNCE_TALK_TO_PLANTS =
 	{
+		[5] = "I know what? We have a EMOJI system mod!",
 		-- A pleasant day to you, my good greenery!",
 		-- I'm so sorry, I'm afraid I'm not quite fluent in plant.",
 		-- How dull to spend your life stuck in the ground! Luckily I'm here to make it more exciting!",
@@ -344,7 +347,7 @@ return {
 	ANNOUNCE_COLD = "Help, I need some nightmare fuels!",
 	-- ANNOUNCE_SACREDCHEST_YES = "I'm... worthy?",
 	-- ANNOUNCE_SHELTER = "Ah, much better!",
-	-- ANNOUNCE_DESPAWN = "Hyuyu, fare thee well!",
+	ANNOUNCE_DESPAWN = "Switch? Switch?! Switch!",
 	ANNOUNCE_ANTLION_TRIBUTE =
 	{
 		-- Tidings and tithings to you!",
@@ -399,9 +402,9 @@ return {
 		-- Perhaps they're still spawning.",
 	},
 	-- ANNOUNCE_PICK_DISEASE_WARNING = "Its soul has not left its body, yet still it stinks.",
-	-- ANNOUNCE_HOUNDS = "The beasts are baying!",
+	ANNOUNCE_HOUNDS = "Watch out, hounds're coming!",
 	-- ANNOUNCE_UNIMPLEMENTED = "What on earth could it be!",
-	-- ANNOUNCE_INV_FULL = "I only have two paws.",
+	ANNOUNCE_INV_FULL = "Anyone want some free stuffs?",
 	ANNOUNCE_HUNGRY_FASTBUILD =
 	{
 	},
@@ -422,7 +425,6 @@ return {
 	ANNOUNCE_HUNGRY_SLOWBUILD =
 	{
 	},
-	-- ANNOUNCE_ENTER_DARK = "I've been banished to the darkness plane!",
 	-- ANNOUNCE_WETTER = "I am the soggiest imp!",
 	-- ANNOUNCE_TORCH_OUT = "Farewell, sweet flame!",
 	-- ANNOUNCE_NODANGERSIESTA = "Why sleep when there's fun afoot?",
@@ -488,7 +490,7 @@ return {
 	-- ANNOUNCE_LOWRESEARCH = "That wasn't very enlightening.",
 	-- ANNOUNCE_ATTACH_BUFF_SLEEPRESISTANCE = "You won't catch this imp sleeping, hyuyu!",
 	-- DESCRIBE_SMOLDERING = "Some fiery fun is about to begin!",
-	-- DESCRIBE_TOODARK = "I can't see the physical plane!",
+	DESCRIBE_TOODARK = "What is that?",
 	DESCRIBE =
 	{
         PANFLUTE = "Sleepy time!",
@@ -2170,7 +2172,7 @@ return {
 		-- LEAFYMEATBURGER = "Mortals seem to get quite irritated when you mess with their food.",
 		-- TURF_FUNGUS_GREEN = "Floor or ceiling, depending on your perspective.",
 		-- QUAGMIRE_RUBBLE_CARRIAGE = "Which squeaky wheel will get the grease?",
-		-- MOLEHAT = "It lets me see on every plane!",
+		MOLEHAT = "It let me see how other people get hit by charlie!",
 		-- OCEANFISH_SMALL_3 = "You took the bait, now suffer your fate!",
 		-- TRUNKVEST_WINTER = "A puffy, poofy vest, oh yes.",
 		-- BARNACLESTUFFEDFISHHEAD = "Hyuyu, no talking with your mouth full!",
@@ -3622,7 +3624,7 @@ return {
 	ANNOUNCE_EAT =
 	{
 		-- GENERIC = "Mmm! Soul free!",
-		-- STALE = "How unpleasant!",
+		STALE = "Don't do that!",
 		-- PAINFUL = "Ouch! Hyuyu!",
 		-- INVALID = "Not even I could eat that.",
 		-- YUCKY = "I'd rather eat my own tail!",
@@ -3684,7 +3686,6 @@ return {
 	},
 	-- DESCRIBE_PLANTVERYSTRESSED = "With much regret, I'd say this plant is upset.",
 	-- ANNOUNCE_COMPASS_OUT = "My compass has pass-ed out!",
-	-- ANNOUNCE_ENTER_LIGHT = "I return to this plane of existence!",
 	-- ANNOUNCE_NOWARDROBEONFIRE = "I'd prefer not to singe my fur.",
 	-- ANNOUNCE_ACCOMPLISHMENT = "I feel excellent about myself!",
 	-- ANNOUNCE_BURNT = "Too hot for my impish paws!",
